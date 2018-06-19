@@ -11,3 +11,6 @@ func _process(delta):
 	
 	if Input.is_key_pressed(KEY_ESCAPE):
 		get_tree().quit()
+
+func _on_WorldComplete_test():
+	print("test signal")
